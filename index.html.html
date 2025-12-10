@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Victoria's Journal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="page">
+
+        <h1 id="header">Victoria's Journal</h1>
+        <h3 id="tagline">So fresh and so clean</h3>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar">
+            <h3>Friends</h3>
+            <ul>
+                <li>Emily</li>
+                <li>Rachel</li>
+                <li>Big Walt</li>
+                <li>Jason</li>
+            </ul>
+        </div>
+
+        <!-- Main Content Box -->
+        <div id="content">
+
+            <div class="entry">
+                <h2 class="date">04/09/08: Spatulas</h2>
+                <p>
+                    Yesterday, I went to the store and got some much needed spatulas!
+                    What better way to say fun than to buy yourself a spatula?
+                </p>
+                <img src="spatula.jpg" class="pic" alt="spatula">
+            </div>
+
+            <div class="entry">
+                <h2 class="date">04/08/08: Cookie Cupcakes</h2>
+                <p>
+                    My favorite cartoon character is Cookie, and my favorite dessert is cupcakes.
+                    So Cookie Cupcakes are best of both worlds.
+                </p>
+                <img src="cupcakes.jpg" class="pic" alt="cupcakes">
+            </div>
+
+        </div>
+
+        <div style="clear: both;"></div>
+    </div>
+
+</body>
+</html>
+/* Page layout settings */
+#page {
+    width: 900px;
+    margin: auto;
+    background-color: #eef4f4;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Heading */
+#header {
+    text-align: center;
+    color: #0088aa;
+    font-weight: bold;
+}
+
+#tagline {
+    text-align: center;
+    color: #777;
+    margin-top: -10px;
+}
+
+/* Sidebar box */
+#sidebar {
+    float: left;
+    width: 180px;
+    padding: 10px;
+    background-color: #c2e0e0;
+    border: 1px solid #8db5b1;
+    margin-right: 20px;
+}
+
+/* Main content area */
+#content {
+    float: left;
+    width: 650px;
+}
+
+/* Journal entry box */
+.entry {
+    background-color: #ffffff;
+    border: 1px solid #8db5b1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Date styling */
+.date {
+    color: #006699;
+    font-weight: bold;
+}
+
+/* Image styling */
+.pic {
+    width: 120px;
+    float: right;
+    margin-left: 10px;
+    border: 1px solid #aaa;
+    padding: 3px;
+}
